@@ -1,0 +1,10 @@
+2022-01-25 17:45:05,484 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer)
+2022-01-25 17:45:05,497 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2022-01-25 17:45:05,499 INFO (UserController.java:32)- UserController.findList:
+2022-01-25 17:45:47,671 INFO (StartupInfoLogger.java:50)- Starting Application on PC-20210409MRSH with PID 15248 (D:\ideaxm\jss\target\classes started by Administrator in D:\ideaxm\jss)
+2022-01-25 17:45:47,702 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2022-01-25 17:45:47,703 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2022-01-25 17:45:52,030 INFO (StartupInfoLogger.java:59)- Started Application in 5.462 seconds (JVM running for 8.73)
+2022-01-25 17:47:44,060 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT userId,userName,password,status FROM user WHERE userId = ? 
+2022-01-25 17:47:44,081 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer)
+2022-01-25 17:47:44,098 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

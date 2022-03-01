@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.mapper.UserMapper">
+<!--    <select id="selectPage" resultType="com.test.entity.User">-->
+<!--        select * FROM user-->
+<!--    </select>-->
+    <select id="selectListall" resultType="com.test.entity.User">
+        select * FROM user
+        <where>
+            <if test="user.userId != null and user.userId != 0">
+                AND userId=#{user.userId}
+            </if>
+        </where>
+    </select>
+    <select id="selectListid" resultType="map">
+        select * FROM user
+        <where>
+            <if test="user.userName != null and user.userName != ''">
+                AND userName=#{user.userName}
+            </if>
+        </where>
+    </select>
+
+
+</mapper>

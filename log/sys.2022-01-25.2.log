@@ -1,0 +1,8 @@
+2022-01-25 17:47:44,101 INFO (UserController.java:32)- UserController.findList:[User(userId=1, userName=吴邪, password=123123, status=1)]
+2022-01-25 18:17:27,168 INFO (StartupInfoLogger.java:50)- Starting Application on PC-20210409MRSH with PID 2036 (D:\ideaxm\jss\target\classes started by Administrator in D:\ideaxm\jss)
+2022-01-25 18:17:27,174 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2022-01-25 18:17:27,175 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2022-01-25 18:17:33,688 INFO (StartupInfoLogger.java:59)- Started Application in 7.685 seconds (JVM running for 11.784)
+2022-01-25 18:18:11,177 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT userId,userName,password,status FROM user WHERE userId = ? 
+2022-01-25 18:18:11,208 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Integer)
+2022-01-25 18:18:11,229 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1

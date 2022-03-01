@@ -1,0 +1,17 @@
+# 端口
+server:
+  port: 8091
+# 数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wuxie?characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+
+# mybatis-plus设置
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml  #mapper.xml文件位置，如果没有映射文件，请注释掉。
+
+logging:
+  config: classpath:logback.xml

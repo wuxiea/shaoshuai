@@ -1,0 +1,9 @@
+2022-01-25 18:18:11,232 INFO (UserController.java:32)- UserController.findList:[User(userId=1, userName=吴邪, password=123123, status=1)]
+2022-01-25 18:18:22,312 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT userId,userName,password,status FROM user WHERE userId = ? 
+2022-01-25 18:18:22,314 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Integer)
+2022-01-25 18:18:22,318 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2022-01-25 18:18:22,319 INFO (UserController.java:32)- UserController.findList:[User(userId=1, userName=吴邪, password=123123, status=1)]
+2022-01-25 18:18:31,096 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==>  Preparing: SELECT userId,userName,password,status FROM user WHERE userId = ? 
+2022-01-25 18:18:31,101 DEBUG (JakartaCommonsLoggingImpl.java:54)- ==> Parameters: 1(Integer)
+2022-01-25 18:18:31,104 DEBUG (JakartaCommonsLoggingImpl.java:54)- <==      Total: 1
+2022-01-25 18:18:31,105 INFO (UserController.java:32)- UserController.findList:[User(userId=1, userName=吴邪, password=123123, status=1)]
